@@ -10,8 +10,8 @@ All Devices that are included or planned to be supported (❌ Not Supported yet 
 |-----------|-----------|-----------------------|------------------------|-----------|
 | Rigol     | DS1054    | Oszilloscope          | ❌ Not Supported yet   | LAN/USB   |
 | KMoon     | FY6900    | Function Generator    | ❌ Not Supported yet   | USB       |   
-| Siglent   | SDG1032X  | Function Generator    | ❌ Not Supported yet   | LAN/USB   |
-| Siglent   | SDM3065X  | Multimeter DMM        | ❌ Not Supported yet   | LAN/USB   |
+| Siglent   | SDG1032X  | Function Generator    | 🧪  Testing            | LAN/USB   |
+| Siglent   | SDM3065X  | Multimeter DMM        | 🧪  Testing            | LAN/USB   |
 | Siglent   | SDL1020X-E| 200W Electronic Load  | ❌ Not Supported yet   | LAN/USB   |
 | Siglent   | SPD4323X  | DC Power Supply       | 🧪  Testing            | LAN/USB   |
 | Stamos    | S-LS-29   | DC Power Supply       | ❌ Not Supported yet   | USB       |
