@@ -5,7 +5,7 @@ A Collection of Tools for the homeLab applications ranging from device controls 
 Just Started and in Progress whenever I have time
 
 ## HomeLab Devices
-All Devices that are included or planned to be supported (❌ Not Supported yet | ✅ Supported)
+All Devices that are included or planned to be supported (❌ Not Supported yet | ✅ Supported | 🧪 Testing)
 | Company   | Model     | Description           | Supported State        | Interface |
 |-----------|-----------|-----------------------|------------------------|-----------|
 | Rigol     | DS1054    | Oszilloscope          | ❌ Not Supported yet   | LAN/USB   |
@@ -13,7 +13,7 @@ All Devices that are included or planned to be supported (❌ Not Supported yet 
 | Siglent   | SDG1032X  | Function Generator    | ❌ Not Supported yet   | LAN/USB   |
 | Siglent   | SDM3065X  | Multimeter DMM        | ❌ Not Supported yet   | LAN/USB   |
 | Siglent   | SDL1020X-E| 200W Electronic Load  | ❌ Not Supported yet   | LAN/USB   |
-| Siglent   | SPD4323X  | DC Power Supply       | ❌ Not Supported yet   | LAN/USB   |
+| Siglent   | SPD4323X  | DC Power Supply       | 🧪  Testing            | LAN/USB   |
 | Stamos    | S-LS-29   | DC Power Supply       | ❌ Not Supported yet   | USB       |
 
 ## Setup
