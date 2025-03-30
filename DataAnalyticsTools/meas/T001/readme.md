@@ -37,3 +37,6 @@ Voltage drop:         9.105 V → 6.000 V = 3.105 V
 Avg. Resistance:      84.58 Ohm
 ---------------------------------------------
 
+### PANASONIC - 6F22 Zinc Chloride
+<img src="../../../src/res/T001/Panasonic_6F22_ZinkChlorid_31-03-2025.png" alt="Panasonic Block" width="400"/>
+
