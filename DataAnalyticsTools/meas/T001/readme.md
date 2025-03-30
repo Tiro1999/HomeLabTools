@@ -24,4 +24,16 @@ the constPower value identical for comparison reasons.
 <img src="../../../src/res/T001/Topcraft_6LR61_30-03-2025.jpg" alt="Topcraft Block" width="400"/>
 
 You can find the [CSV Measurements](T001_30-03-2025_Topcraft_6LR61_01-2023.csv)
+Battery Test Result Summary:
+---------------------------------------------
+Total Duration:       14798.0 s (246.63 min)
+Samples Taken:        14798
+Voltage avg:          7.106 V
+Current avg:          85.13 mA
+Power avg:            600.99 mW
+Capacity (Q):         349.92 mAh
+Energy (E):           2.470 Wh
+Voltage drop:         9.105 V → 6.000 V = 3.105 V
+Avg. Resistance:      84.58 Ohm
+---------------------------------------------
 

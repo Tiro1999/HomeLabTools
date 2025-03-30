@@ -16,7 +16,7 @@ import csv
 import os
 
 ################################# Battery Type Config #################################
-bat_test_active = 1                     #   activate setup for bat testing
+bat_test_active = 0                     #   activate setup for bat testing
 bat_brand       = "Topcraft"            #   Manufacturer / Brand of the Bat
 bat_model       = "6LR61"               #   Model Number of the Bat
 bat_date        = "01-2023"             #   Production Date
@@ -30,10 +30,8 @@ bat_cp_value    = (bat_dead_u * bat_nominal_i)
 
 # === Config ===
 visa_address = "SDL1020X-E"             # Overwise VISA Adr TCPIP0::192.168.178.148::inst0::INSTR
-target_path  = "../../DataAnalyticsTools/meas/T001"
-
-# Test Parameters
 load_mode = "cp"                        # "cc", "cv", "cp"
+target_path  = "../../DataAnalyticsTools/meas/T001"
 
 if bat_test_active == 1:
     csv_name = f"T001_{bat_test_date}_{bat_brand}_{bat_model}_{bat_date}.csv"
