@@ -15,7 +15,7 @@ import os
 #visa_address = "TCPIP0::192.168.178.148::inst0::INSTR"             # LAN/IP
 visa_address = "SDL1020X-E"                                         # ALIAS
 target_path  = "../../DataAnalyticsTools/meas/T001"
-csv_name     = "loadmeasurement_001.csv"
+csv_name     = "TEST_loadmeasurement_001.csv"
 load_mode = "cp"  # "cc", "cv", "cp"
 cv_value = 3.0    # volts
 cc_value = 0.1    # amps
