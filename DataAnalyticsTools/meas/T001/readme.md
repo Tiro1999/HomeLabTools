@@ -1,4 +1,4 @@
-# T001 - Battery Endurance Test
+# T001 - Battery Endurance Test with Constant Load
 
 For the edurance test we will apply a constant load to the battery.
 To achieve a good comparison we will define basic rules and constants to each battery type.
