@@ -9,22 +9,23 @@ from tabulate import tabulate
 
 # LAN-ADRs (VISA over TCPIPx)           my Devices
 lan_addresses = [
-    "TCPIP0::192.168.178.146::INSTR",  # SDG1032X
-    "TCPIP0::192.168.178.27::INSTR",   # SDM3065X
+    #"TCPIP0::192.168.178.146::INSTR",  # SDG1032X
+    #"TCPIP0::192.168.178.27::INSTR",   # SDM3065X
     "TCPIP0::192.168.178.162::INSTR"   # SPD4323X
 ]
 
 # USB-ADRs (VISA over USBx)
 usb_addresses = [
     # Example: "USB0::0xF4EC::0x0100::SDG1XCAQ5RXXXX::INSTR"
+    "USB0::0xF4EC::0x1621::SDL13GCD5R0910::0::INSTR" # SDL1020X-E
 ]
 
 all_addresses = lan_addresses + usb_addresses
 
-# Resource Manager öffnen
+# Resource Manager
 rm = pyvisa.ResourceManager()
 
-# Ergebnisse sammeln
+# collect results
 results = []
 
 for addr in all_addresses:
@@ -36,5 +37,5 @@ for addr in all_addresses:
     except Exception as e:
         results.append([addr, f"Error: {str(e)}"])
 
-# Tabelle anzeigen
+# print result table
 print(tabulate(results, headers=["Address", "*IDN? Rsp"], tablefmt="github"))

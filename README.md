@@ -16,8 +16,11 @@ All Devices that are included or planned to be supported (❌ Not Supported yet 
 | Siglent   | SPD4323X  | DC Power Supply       | 🧪  Testing            | LAN/USB   |
 | Stamos    | S-LS-29   | DC Power Supply       | ❌ Not Supported yet   | USB       |
 
+## Repository Content
+| 
 ## Setup
-All devices in this setup should work together over dedicated scripts 
+All devices in this setup should work together over dedicated scripts. At the End it would be great to have 
+Jupyter Notebook for each device.
 <img src="src/res/setup.jpg" alt="Setup to automate" width="400"/>
 
 ## By me a beer via PayPal

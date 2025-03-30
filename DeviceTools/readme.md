@@ -7,9 +7,9 @@ You can scan in your local network for online SCPI Devices with the [Scan Script
 | Q2/2025  | Started working on Siglent SCPI over IP |
 
 ## Roadmap Testcases
-| Timeslot | Doing                     | Devices      |
-|----------|---------------------------|--------------|
-| Q2/2025  | Battery endurance testing | SDM3065X/ 
+| Timeslot   | Doing                     | Devices        | Testcase  |
+|------------|---------------------------|----------------|-----------|
+| 30-03-2025 | Battery endurance testing | SDL1020X-E     | T001      |
 
 ## SPD4323X
 - See under Chapter 10.4 for SCPI Commands [UserManuel_EN01B.pdf](../src/docs/SPD4000X_UserManual_EN01B.pdf#page=59) ([online link](https://www.siglenteu.com/wp-content/uploads/dlm_uploads/2024/08/SPD4000X_UserManual_EN01B.pdf#page=59))
