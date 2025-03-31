@@ -17,15 +17,16 @@ import os
 
 ################################# Battery Type Config #################################
 bat_test_active = 1                     #   activate setup for bat testing
-bat_brand       = "Panasonic"           #   Manufacturer / Brand of the Bat
-bat_model       = "6F22_ZinkChlorid"    #   Model Number of the Bat
-bat_date        = "05-2023"             #   Production Date
+bat_brand       = "Topcraft"            #   Manufacturer / Brand of the Bat
+bat_model       = "6LR61"               #   Model Number of the Bat
+bat_date        = "01-2023"             #   Production Date
 bat_test_date   = "31-03-2025"          #   Add todays date
 bat_nominal_u   = 9     #V                  nominal voltage level of the new battery
 bat_nominal_i   = 0.1   #A                  suggested nominal discharge current
 bat_peak_i      = 0.25  #A                  max. capable discharge current
 bat_dead_u      = 6     #V                  assume dead after falling under this
 bat_cp_value    = (bat_dead_u * bat_nominal_i)
+#bat_cp_value    = 0.6   #W              #   Fixed Value
 #######################################################################################
 
 # === Config ===

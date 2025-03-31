@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 
 # === Settings ===
-csv_file = "T001_30-03-2025_Topcraft_6LR61_01-2023.csv"
+csv_file = "T001_31-03-2025_Panasonic_6F22_ZinkChlorid_05-2023.csv"
 interval_s = 1     # Measured interval in seconds
 bat_dead_u = 6.0   # Discharge threshold
 
