@@ -7,14 +7,16 @@
         "cp_value": 0.6,
         "SpecificDUT": [
           {
-            "Brand": "ReweVIVESS",
+            "Brand": "VIVESS",
+            "Merchant": "Rewe",
             "EXP_Date": "04-2031",
             "Format": "6LR61",
             "Model": "7578340",
             "EUR_PricePer": 1.25
           },
           {
-            "Brand": "ReweJA",
+            "Brand": "JA",
+            "Merchant": "Rewe",
             "Format": "6LR61",
             "Model": "10E0A03",
             "EXP_Date": "10-2028",
@@ -30,11 +32,22 @@
         "cp_value": 0.09,
         "SpecificDUT": [
           {
-            "Brand": "Duracell",
-            "Format": "AA",
-            "Model": "MN1500",
-            "EXP_Date": "12-2029",
-            "EUR_PricePer":
+            "Brand": "JA",
+            "Merchant": "Rewe",
+            "Format": "LR6",
+            "Model": "10B0A03",
+            "EXP_Date": "07-2029",
+            "EUR_PricePer": 0.17
+          },
+          {
+            "Brand": "TRONIC",
+            "Merchant": "LIDL",
+            "Format": "LR6",
+            "Model" : "400227LC1",
+            "GTIN": "4056489954965",
+            "EXP_Date": "02-2030",
+            "MAN_Date": "08-2024",
+            "EUR_PricePer": 0.30
           }
         ]
     }
