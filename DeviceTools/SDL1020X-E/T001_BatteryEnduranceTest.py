@@ -17,10 +17,10 @@ import os
 
 ################################# Battery Type Config #################################
 bat_test_active = 1                     #   activate setup for bat testing
-bat_brand       = "Topcraft"            #   Manufacturer / Brand of the Bat
-bat_model       = "6LR61"               #   Model Number of the Bat
-bat_date        = "01-2023"             #   Production Date
-bat_test_date   = "31-03-2025"          #   Add todays date
+bat_brand       = "ReweVIVESS"          #   Manufacturer / Brand of the Bat
+bat_model       = "6LR61_7578340"       #   Model Number of the Bat or marking
+bat_date        = "04-2031"             #   Production/Expire Date Imprint on DUT
+bat_test_date   = "01-04-2025"          #   Add todays date
 bat_nominal_u   = 9     #V                  nominal voltage level of the new battery
 bat_nominal_i   = 0.1   #A                  suggested nominal discharge current
 bat_peak_i      = 0.25  #A                  max. capable discharge current

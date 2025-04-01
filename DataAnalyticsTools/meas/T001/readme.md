@@ -24,19 +24,38 @@ the constPower value identical for comparison reasons.
 <img src="../../../src/res/T001/Topcraft_6LR61_30-03-2025.jpg" alt="Topcraft Block" width="400"/>
 
 You can find the [CSV Measurements](T001_30-03-2025_Topcraft_6LR61_01-2023.csv)
-Battery Test Result Summary:
----------------------------------------------
-Total Duration:       14798.0 s (246.63 min)
-Samples Taken:        14798
-Voltage avg:          7.106 V
-Current avg:          85.13 mA
-Power avg:            600.99 mW
-Capacity (Q):         349.92 mAh
-Energy (E):           2.470 Wh
-Voltage drop:         9.105 V → 6.000 V = 3.105 V
-Avg. Resistance:      84.58 Ohm
----------------------------------------------
+Battery Test Result Summary: 30.03.2025
 
-### PANASONIC - 6F22 Zinc Chloride
-<img src="../../../src/res/T001/Panasonic_6F22_ZinkChlorid_31-03-2025.png" alt="Panasonic Block" width="400"/>
+| Parameter               | Wert                        |
+|-------------------------|-----------------------------|
+| Testduration            | 14798.0 s (246.63 min)      |
+| Anzahl der Messungen    | 14798                       |
+| Durchschnittsspannung   | 7.106 V                     |
+| Durchschnittsstrom      | 85.13 mA                    |
+| Durchschnittsleistung   | 600.99 mW                   |
+| Kapazität (Q)           | 349.92 mAh                  |
+| Energie (E)             | 2.470 Wh                    |
+| Spannungsabfall         | 9.105 V → 6.000 V = 3.105 V |
+| Durchschnittswiderstand | 84.58 Ohm                   |
+
+Important Note: This was a Battery laying around for a first Test. From now only new Batterys
+out of the Box with complete Documentation of parameters
+
+
+### REWE - JA 6LR61_10E0A03
+<img src="../../../src/res/T001/JA_9V_Alkaline.jpg" alt="Panasonic Block" width="400"/>
+
+| Parameter                 | Value                       |
+|---------------------------|-----------------------------|
+| Testduration              | 17479.0 s (291.32 min)      |
+| Sample count              | 17479                       |
+| Avarage voltage           | 7.435 V                     |
+| Avarage current           | 81.60 mA                    |
+| Avarage power             | 601.41 mW                   |
+| Capacity (Q)              | 396.19 mAh                  |
+| Energy (E)                | 2.920 Wh                    |
+| Voltage Drop              | 8.816 V → 6.000 V = 2.816 V |
+| Avarage resistance        | 92.71 Ohm                   |
+| Price per DUT [EUR]       | 0,80                        |
+
 
