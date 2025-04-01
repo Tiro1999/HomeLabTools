@@ -26,17 +26,19 @@ the constPower value identical for comparison reasons.
 You can find the [CSV Measurements](T001_30-03-2025_Topcraft_6LR61_01-2023.csv)
 Battery Test Result Summary: 30.03.2025
 
-| Parameter               | Wert                        |
-|-------------------------|-----------------------------|
-| Testduration            | 14798.0 s (246.63 min)      |
-| Anzahl der Messungen    | 14798                       |
-| Durchschnittsspannung   | 7.106 V                     |
-| Durchschnittsstrom      | 85.13 mA                    |
-| Durchschnittsleistung   | 600.99 mW                   |
-| Kapazität (Q)           | 349.92 mAh                  |
-| Energie (E)             | 2.470 Wh                    |
-| Spannungsabfall         | 9.105 V → 6.000 V = 3.105 V |
-| Durchschnittswiderstand | 84.58 Ohm                   |
+| Parameter                 | Value                       |
+|---------------------------|-----------------------------|
+| Testduration              | 14798.0 s (246.63 min)      |
+| Sample count              | 14798                       |
+| Avarage voltage           | 7.106 V                     |
+| Avarage current           | 85.13 mA                    |
+| Avarage power             | 600.99 mW                   |
+| Capacity (Q)              | 349.92 mAh                  |
+| Energy (E)                | 2.470 Wh                    |
+| Voltage Drop              | 9.105 V → 6.000 V = 3.105 V |
+| Avarage resistance        | 84.58 Ohm                   |
+| Price per DUT [EUR]       | N/A                         |
+| Imprinted Date            | 01-2023                     |
 
 Important Note: This was a Battery laying around for a first Test. From now only new Batterys
 out of the Box with complete Documentation of parameters
@@ -57,5 +59,8 @@ out of the Box with complete Documentation of parameters
 | Voltage Drop              | 8.816 V → 6.000 V = 2.816 V |
 | Avarage resistance        | 92.71 Ohm                   |
 | Price per DUT [EUR]       | 0,80                        |
+| Imprinted Date            | 10-2028                     |
+
+
 
 

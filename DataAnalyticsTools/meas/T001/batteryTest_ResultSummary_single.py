@@ -6,9 +6,13 @@ import numpy as np
 import os
 
 # === Settings ===
-csv_file = "T001_31-03-2025_ReweJA_6LR61_10E0A03_10-2028.csv"
+csv_file = "T001_30-03-2025_Topcraft_6LR61_01-2023.csv"
 interval_s = 1     # Measured interval in seconds
 bat_dead_u = 6.0   # Discharge threshold
+
+filename_without_extension = csv_file.rsplit('.', 1)[0]
+parts = filename_without_extension.split('_')
+imprint_date = parts[-1]
 
 # === Load CSV ===
 df = pd.read_csv(csv_file)
@@ -72,17 +76,17 @@ print("\nBattery Test Result Summary:")
 
 markdown_tabelle = f"""
 | Parameter                 | Value                        |
-|---------------------------|-----------------------------|
+|---------------------------|------------------------------|
 | Testduration              | {t_total:.1f} s ({t_total/60:.2f} min) |
-| Sample count              | {n_samples}                 |
-| Avarage voltage           | {U_avg:.3f} V               |
-| Avarage current           | {I_avg*1000:.2f} mA         |
-| Avarage power             | {P_avg*1000:.2f} mW         |
-| Capacity (Q)              | {Q_total_mAh:.2f} mAh       |
-| Energy (E)                | {E_total_Wh:.3f} Wh         |
+| Sample count              | {n_samples}                  |
+| Avarage voltage           | {U_avg:.3f} V                |
+| Avarage current           | {I_avg*1000:.2f} mA          |
+| Avarage power             | {P_avg*1000:.2f} mW          |
+| Capacity (Q)              | {Q_total_mAh:.2f} mAh        |
+| Energy (E)                | {E_total_Wh:.3f} Wh          |
 | Voltage Drop              | {V_start:.3f} V → {V_end:.3f} V = {V_drop:.3f} V |
-| Avarage resistance        | {R_avg:.2f} Ohm             |
-| Price per DUT [EUR]       |                             |
-| Imprinted Date            |
+| Avarage resistance        | {R_avg:.2f} Ohm              |
+| Price per DUT [EUR]       |                              |
+| Imprinted Date            | {imprint_date}               |
 """
 print(markdown_tabelle)
