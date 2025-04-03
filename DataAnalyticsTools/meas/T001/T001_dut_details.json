@@ -15,6 +15,32 @@
             "EUR_PricePer": 1.25
           },
           {
+            "Brand": "VARTA",
+            "Name": "Longlife",
+            "EXP_Date": "",
+            "Format": "6LR61",
+            "Model": "4122_6LP3146",
+            "EUR_PricePer": 3.99
+          },
+          {
+            "Brand": "Duracell",
+            "Name": "Plus",
+            "EXP_Date": "07-2029",
+            "PROD_Date": "07-2024",
+            "Format": "6LR61",
+            "Model": "MN1604",
+            "EUR_PricePer": 6.99
+          },
+          {
+            "Brand": "TRONIC",
+            "Merchanz": "LIDL",
+            "Name": "LongLastingPower",
+            "EXP_Date": "10-2027",
+            "Format": "6LR61",
+            "Model": "400225LC1",
+            "EUR_PricePer": 0.80
+          },
+          {
             "Brand": "JA",
             "Merchant": "Rewe",
             "Format": "6LR61",
@@ -46,8 +72,8 @@
             "Model" : "400227LC1",
             "GTIN": "4056489954965",
             "EXP_Date": "02-2030",
-            "MAN_Date": "08-2024",
-            "EUR_PricePer": 0.30
+            "PROD_Date": "08-2024",
+            "EUR_PricePer": 0.17
           }
         ]
     }
