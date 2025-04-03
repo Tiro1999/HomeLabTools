@@ -1,0 +1,26 @@
+{
+    "9V_EBlock_Alkaline": {
+        "nominal_u": 9.0,
+        "nominal_i": 0.1,
+        "peak_i": 0.25,
+        "dead_u": 6.0,
+        "cp_max_value": 0.6,
+        "SpecificDUT": []
+    },
+    "AA_Alkaline": {
+        "nominal_u": 1.5,
+        "nominal_i": 0.1,
+        "peak_i": 0.2,
+        "dead_u": 0.9,
+        "cp_max_value": 0.09,
+        "SpecificDUT": []
+    },
+    "CR2450": {
+        "nominal_u": 3.0,
+        "nominal_i": 0.01,
+        "peak_i": 0.02,
+        "dead_u": 1.7,
+        "cp_max_value": 0.02,
+        "SpecificDUT": []
+    }
+}
