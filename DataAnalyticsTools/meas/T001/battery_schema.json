@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft/2020-12/schema",
+  "title": "BatteryTypes",
+  "type": "object",
+  "patternProperties": {
+    "^[A-Za-z0-9_]+$": {
+      "type": "object",
+      "properties": {
+        "nominal_u": { "type": "number" },
+        "nominal_i": { "type": "number" },
+        "peak_i": { "type": "number" },
+        "dead_u": { "type": "number" },
+        "cp_max_value": { "type": "number" },
+        "SpecificDUT": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Brand": { "type": "string" },
+              "Merchant": { "type": "string" },
+              "EXP_Date": { "type": "string", "format": "date" },
+              "Format": { "type": "string" },
+              "Model": { "type": "string" },
+              "EUR_PricePer": { "type": "number" }
+            },
+            "required": ["Brand", "Format", "Model"]
+          }
+        }
+      },
+      "required": ["nominal_u", "nominal_i", "peak_i", "dead_u", "cp_max_value", "SpecificDUT"]
+    }
+  }
+}
