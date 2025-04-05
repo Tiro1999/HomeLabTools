@@ -2,8 +2,8 @@ import json
 from jsonschema import validate, ValidationError
 
 # Pfade zu den Dateien
-schema_file = 'battery_schema.json'
-data_file = 'battery_data.json'
+schema_file = '../battery_schema.json'
+data_file = '../battery_data.json'
 
 # JSON Schema laden
 with open(schema_file, 'r') as sf:

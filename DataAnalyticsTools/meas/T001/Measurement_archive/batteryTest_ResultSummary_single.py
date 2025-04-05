@@ -6,7 +6,7 @@ import numpy as np
 import os
 
 # === Settings ===
-csv_file = "Measurement_archive/T001_30-03-2025_Topcraft_6LR61_01-2023.csv"
+csv_file = "T001_30-03-2025_Topcraft_6LR61_01-2023.csv"
 interval_s = 1     # Measured interval in seconds
 bat_dead_u = 6.0   # Discharge threshold
 

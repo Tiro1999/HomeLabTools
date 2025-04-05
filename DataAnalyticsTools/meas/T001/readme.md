@@ -3,12 +3,16 @@
 For the edurance test we will apply a constant load to the battery.
 To achieve a good comparison we will define basic rules and constants to each battery type.
 These you can find under 'Battery Profiles' in this readme.
-You can however set specified values for each model based on the datasheets. For my Meaurements I will 
-provide a table overview of my used values for each battery type and most of the time they will be
-very similar or identical per type for a better comparison. These are general purpose values.
-If you add all the battery parameter to the [T001 - Script](../../../DeviceTools/SDL1020X-E/T001_BatteryEnduranceTest.py)
-it will automatically define a unique CSV file name for your testrun with the following pattern 
-'T001_testDate_Brandname_ModelNumber_imprintDate.csv'
+You can however set specified values for each model based on the datasheets and add those with
+the [Add DUT Script](add_DUT_T001.py) and add all parameters you can find.
+With that all data for your newly created DUT will be stored in the [Battery Data JSON](battery_data.json).
+If you like you can always validate this data file with the [JSON Validator](testing/JSONvalidator.py).
+
+In the current state there is the [Measurement Script T001 with JSON Support](../../../DeviceTools/SDL1020X-E/T001_BatteryEnduranceTestJSON.py)
+you can use if you added the wanted DUT with you chose dutID to the JSON file.
+You can include the dutID in the script and can vary the constant load you want to use.
+I am currently working on the result creating scripts that are also supporting the JSON data and in the future I will
+try to refactor the already done measurement result CSVs for this purpose.
 
 ## Current State - In Progress
 There are a few things I really want to change before further updating any results.
@@ -17,53 +21,10 @@ There are a few things I really want to change before further updating any resul
 If you adjust the "assumed dead Voltage" below the given Value for the battery type please keep
 the constPower value identical for comparison reasons.
 
-| Battery Type  | nominal_U [V] | nominal_I [mA] | dead_U [V] | constPower [W]  |
-|---------------|---------------|----------------|------------|-----------------|
-| 9V Block      | 9.00          | 0.100          | 6.00       | 0.60            |
-
-
-## Testruns and Results
-### ALDI - Topcraft Ultra Alkaline
-<img src="../../../src/res/T001/Topcraft_6LR61_30-03-2025.jpg" alt="Topcraft Block" width="400"/>
-
-You can find the [CSV Measurements](Measurement_archive/T001_30-03-2025_Topcraft_6LR61_01-2023.csv)
-Battery Test Result Summary: 30.03.2025
-
-| Parameter                 | Value                       |
-|---------------------------|-----------------------------|
-| Testduration              | 14798.0 s (246.63 min)      |
-| Sample count              | 14798                       |
-| Avarage voltage           | 7.106 V                     |
-| Avarage current           | 85.13 mA                    |
-| Avarage power             | 600.99 mW                   |
-| Capacity (Q)              | 349.92 mAh                  |
-| Energy (E)                | 2.470 Wh                    |
-| Voltage Drop              | 9.105 V → 6.000 V = 3.105 V |
-| Avarage resistance        | 84.58 Ohm                   |
-| Price per DUT [EUR]       | N/A                         |
-| Imprinted Date            | 01-2023                     |
-
-Important Note: This was a Battery laying around for a first Test. From now only new Batterys
-out of the Box with complete Documentation of parameters
-
-
-### REWE - JA 6LR61_10E0A03
-<img src="../../../src/res/T001/JA_9V_Alkaline.jpg" alt="Panasonic Block" width="400"/>
-
-| Parameter                 | Value                       |
-|---------------------------|-----------------------------|
-| Testduration              | 17479.0 s (291.32 min)      |
-| Sample count              | 17479                       |
-| Avarage voltage           | 7.435 V                     |
-| Avarage current           | 81.60 mA                    |
-| Avarage power             | 601.41 mW                   |
-| Capacity (Q)              | 396.19 mAh                  |
-| Energy (E)                | 2.920 Wh                    |
-| Voltage Drop              | 8.816 V → 6.000 V = 2.816 V |
-| Avarage resistance        | 92.71 Ohm                   |
-| Price per DUT [EUR]       | 0,80                        |
-| Imprinted Date            | 10-2028                     |
-
+| Battery Type  | nominal_U [V] | nominal_I [mA] | dead_U [V] | constPowerMax [W] |
+|---------------|---------------|----------------|------------|-------------------|
+| 9V Block      | 9.00          | 0.100          | 6.00       | 0.60              |
+| AA Alkaline   | 1.5           | 0.100          | 0.9        | 0.02              |
 
 
 

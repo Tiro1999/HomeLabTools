@@ -2,7 +2,19 @@
 A Collection of Tools for the homeLab applications ranging from device controls to data analytics
 
 ## State
-Just Started and in Progress whenever I have time
+Just Started and in Progress whenever I have time.
+
+## Current Testplans
+| Number | Idea                                                                  |
+|--------|-----------------------------------------------------------------------|
+| T001   | Endurance Test for Batterys of any kind with a constant load attached |
+
+## Repository Content
+| Chapter            | Content                                                               |
+|--------------------|-----------------------------------------------------------------------|
+| DataAnalyticsTools | Here will be your measurements stored in the dedicated Testcase SubDir|
+| DeviceTools        | Any Device regarded scripts and configs and setup details             |
+| src                | Datasheets (docs) and any documentation to be referenced by READMEs   |
 
 ## HomeLab Devices
 All Devices that are included or planned to be supported (❌ Not Supported yet | ✅ Supported | 🧪 Testing)
@@ -19,16 +31,10 @@ All Devices that are included or planned to be supported (❌ Not Supported yet 
 The Siglent Devices should be covering the whole product Series. For Example the DC Loads of SDL1000X
 should all be covered.
 
-## Repository Content
-| Chapter            | Content                                                               |
-|--------------------|-----------------------------------------------------------------------|
-| DataAnalyticsTools | Here will be your measurements stored in the dedicated Testcase SubDir|
-| DeviceTools        | Any Device regarded scripts and configs and setup details             |
-| src                | Datasheets (docs) and any documentation to be referenced by READMEs   |
-
 ## Setup
 All devices in this setup should work together over dedicated scripts. At the End it would be great to have 
-Jupyter Notebook for each device.
+Jupyter Notebook for each device. For a more detailed describtion on how to set the devices up I would refer to the 
+[Guide in this readme](DeviceTools/readme.md).
 <img src="src/res/setup.jpg" alt="Setup to automate" width="400"/>
 
 ## By me a beer via PayPal

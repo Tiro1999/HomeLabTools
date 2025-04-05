@@ -19,6 +19,32 @@
                 "PROD_Date": "07-2024",
                 "PROD_Marker": "4188D00900",
                 "EUR_PricePer": 6.99
+            },
+            {
+                "dutID": "250406A",
+                "Brand": "Tronic",
+                "Format": "6LR61",
+                "Model": "400225LC1",
+                "test_date": "06-04-2025",
+                "EXP_Date": "10-2027",
+                "FilepathToIMG": "../../../src/res/T001/Tronic_9V_Alkaline.jpg",
+                "Merchant": "Lidl",
+                "Name": "LongLastingPower",
+                "PROD_Marker": "40 11 178",
+                "EUR_PricePer": 0.8
+            },
+            {
+                "dutID": "250404A",
+                "Brand": "Tronic",
+                "Format": "6LR61",
+                "Model": "400225LC1",
+                "test_date": "04-04-2025",
+                "EXP_Date": "10-2027",
+                "FilepathToIMG": "../../../src/res/T001/Tronic_9V_Alkaline.jpg",
+                "Merchant": "Lidl",
+                "Name": "LongLastingPower",
+                "PROD_Marker": "40 11 178-1",
+                "EUR_PricePer": 0.8
             }
         ]
     },
@@ -30,7 +56,23 @@
         "cp_max_value": 0.09,
         "SpecificDUT": []
     },
+    "AAA_Alkaline": {
+        "nominal_u": 1.5,
+        "nominal_i": 0.1,
+        "peak_i": 0.2,
+        "dead_u": 0.9,
+        "cp_max_value": 0.09,
+        "SpecificDUT": []
+    },
     "CR2450": {
+        "nominal_u": 3.0,
+        "nominal_i": 0.01,
+        "peak_i": 0.02,
+        "dead_u": 1.7,
+        "cp_max_value": 0.02,
+        "SpecificDUT": []
+    },
+    "CR2032": {
         "nominal_u": 3.0,
         "nominal_i": 0.01,
         "peak_i": 0.02,
