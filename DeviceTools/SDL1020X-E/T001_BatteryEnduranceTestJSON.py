@@ -1,6 +1,6 @@
 #######################################################################################
 #   Author:     Tim Rothenhäusler
-#   Date:       30-03-2025
+#   Date:       05-04-2025
 #   Topic:      Siglent SDL1020X-E 200W Electronic Load Setup and CSV Measurement
 #   Testcase:   T001 - Battery Endurance Test
 #   Interface:  USB + LAN (current support only LAN)
@@ -14,7 +14,7 @@ import os
 import json
 
 json_file_path  = '../../DataAnalyticsTools/meas/T001/battery_data.json'
-target_path     = "../../DataAnalyticsTools/meas/T001/testing"
+target_path     = "../../DataAnalyticsTools/meas/T001/MeasureResultsFromJSONduts"
 dutID           = "250405A"
 dutInfoList     = []
 
