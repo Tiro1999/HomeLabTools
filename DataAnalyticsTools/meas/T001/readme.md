@@ -10,6 +10,9 @@ If you add all the battery parameter to the [T001 - Script](../../../DeviceTools
 it will automatically define a unique CSV file name for your testrun with the following pattern 
 'T001_testDate_Brandname_ModelNumber_imprintDate.csv'
 
+## Current State - In Progress
+There are a few things I really want to change before further updating any results.
+
 ## Battery Profiles 
 If you adjust the "assumed dead Voltage" below the given Value for the battery type please keep
 the constPower value identical for comparison reasons.
@@ -23,7 +26,7 @@ the constPower value identical for comparison reasons.
 ### ALDI - Topcraft Ultra Alkaline
 <img src="../../../src/res/T001/Topcraft_6LR61_30-03-2025.jpg" alt="Topcraft Block" width="400"/>
 
-You can find the [CSV Measurements](T001_30-03-2025_Topcraft_6LR61_01-2023.csv)
+You can find the [CSV Measurements](Measurement_archive/T001_30-03-2025_Topcraft_6LR61_01-2023.csv)
 Battery Test Result Summary: 30.03.2025
 
 | Parameter                 | Value                       |
