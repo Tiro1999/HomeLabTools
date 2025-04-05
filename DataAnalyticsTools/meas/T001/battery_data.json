@@ -5,7 +5,21 @@
         "peak_i": 0.25,
         "dead_u": 6.0,
         "cp_max_value": 0.6,
-        "SpecificDUT": []
+        "SpecificDUT": [
+            {
+                "dutID": "250405A",
+                "Brand": "Duracell",
+                "Format": "6LR61",
+                "Model": "MN1604",
+                "test_date": "05-04-2025",
+                "EXP_Date": "07-2029",
+                "FilepathToIMG": "../../../src/res/T001/Duracell_plus_9V.jpg",
+                "Merchant": "Hit",
+                "Name": "Plus",
+                "PROD_Date": "07-2024",
+                "EUR_PricePer": 6.99
+            }
+        ]
     },
     "AA_Alkaline": {
         "nominal_u": 1.5,

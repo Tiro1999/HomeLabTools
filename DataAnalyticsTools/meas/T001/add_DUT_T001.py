@@ -22,11 +22,11 @@ def add_dut(data):
         return
 
     # Mandatory data of DUT
-    dutID = input("ID for DUT")                                         # Used to reference a specific DUT in the results
+    dutID = input("ID for DUT: ")                                       # Used to reference a specific DUT in the results
     brand = input("Brand: ")                                            # Brand/Manufacturer of the Battery
     format = input("Format: ")                                          # Format of the battery casing
     model = input("Model: ")                                            # Model Number or any kind of marking
-    test_date = input("Test date: ")                                   # Date of the testrun for this DUT
+    test_date = input("Test date: ")                                    # Date of the testrun for this DUT
     exp_date = input("Exp Date: ")
     filepath_to_img = input("FilepathToIMG: ")
 
@@ -34,6 +34,7 @@ def add_dut(data):
     merchant = input("Merchant (optional): ") or None                   # Merchant who sold the battery
     name = input("Name (optional): ") or None
     prod_date = input("Production_Date (optional): ") or None
+    prod_marker = input("Production_Marker (optional): ") or None
     eur_price_per = input("Euro price per unit (optional): ")
     eur_price_per = float(eur_price_per) if eur_price_per else None
 
@@ -55,6 +56,8 @@ def add_dut(data):
         new_dut["Name"] = name
     if prod_date:
         new_dut["PROD_Date"] = prod_date
+    if prod_marker:
+        new_dut["PROD_Marker"] = prod_marker
     if eur_price_per is not None:
         new_dut["EUR_PricePer"] = eur_price_per
 
