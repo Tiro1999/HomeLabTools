@@ -45,6 +45,19 @@
                 "Name": "LongLastingPower",
                 "PROD_Marker": "40 11 178-1",
                 "EUR_PricePer": 0.8
+            },
+            {
+                "dutID": "250407A",
+                "Brand": "Varta",
+                "Format": "6LR61",
+                "Model": "6LP3146",
+                "test_date": "07-04-2025",
+                "EXP_Date": "12-2026",
+                "FilepathToIMG": "../../../src/res/T001/Varta_LonglifePower_9V_Alkaline.jpg",
+                "Name": "LonglifePower",
+                "PROD_Date": "08-2021",
+                "PROD_Marker": "PD0821",
+                "EUR_PricePer": 3.99
             }
         ]
     },
