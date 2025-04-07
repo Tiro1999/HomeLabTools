@@ -15,7 +15,7 @@ import json
 
 json_file_path  = '../../DataAnalyticsTools/meas/T001/battery_data.json'
 target_path     = "../../DataAnalyticsTools/meas/T001/MeasureResultsFromJSONduts"
-dutID           = "250405A"
+dutID           = "250406A"
 dutInfoList     = []
 
 # load and open JSON file
