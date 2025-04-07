@@ -58,6 +58,19 @@
                 "PROD_Date": "08-2021",
                 "PROD_Marker": "PD0821",
                 "EUR_PricePer": 3.99
+            },
+            {
+                "dutID": "250407B",
+                "Brand": "Tronic",
+                "Format": "6LR61",
+                "Model": "400225LC1",
+                "test_date": "07-04-2025",
+                "EXP_Date": "10-2027",
+                "FilepathToIMG": "../../../src/res/T001/Tronic_9V_Alkaline.jpg",
+                "Merchant": "Lidl",
+                "Name": "LongLastingPower",
+                "PROD_Marker": "40 11 178-1",
+                "EUR_PricePer": 0.8
             }
         ]
     },
