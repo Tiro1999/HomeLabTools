@@ -71,6 +71,20 @@
                 "Name": "LongLastingPower",
                 "PROD_Marker": "40 11 178-1",
                 "EUR_PricePer": 0.8
+            },
+            {
+                "dutID": "250409A",
+                "Brand": "Duracell",
+                "Format": "6LR61",
+                "Model": "MN1604",
+                "test_date": "09-04-2025",
+                "EXP_Date": "07-2029",
+                "FilepathToIMG": "../../src/res/T001/Duracell_plus_9V.jpg",
+                "Merchant": "Amazon",
+                "Name": "Plus",
+                "PROD_Date": "07-2024",
+                "PROD_Marker": "4198D00900",
+                "EUR_PricePer": 3.0
             }
         ]
     },
