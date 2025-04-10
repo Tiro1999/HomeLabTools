@@ -110,7 +110,21 @@
         "peak_i": 0.02,
         "dead_u": 1.7,
         "cp_max_value": 0.02,
-        "SpecificDUT": []
+        "SpecificDUT": [
+            {
+                "dutID": "250410A",
+                "Brand": "Duracell",
+                "Format": "CR2450",
+                "Model": "CR2450",
+                "test_date": "10-04-2025",
+                "EXP_Date": "08-2033",
+                "FilepathToIMG": "../../../src/res/T001/Duracell_CR2450_2025.jpg",
+                "Name": "LongLife",
+                "PROD_Date": "08-2023",
+                "PROD_Marker": "3230D014AX 05:00",
+                "EUR_PricePer": 2.5
+            }
+        ]
     },
     "CR2032": {
         "nominal_u": 3.0,

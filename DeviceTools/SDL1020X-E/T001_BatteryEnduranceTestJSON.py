@@ -15,7 +15,7 @@ import json
 
 json_file_path  = '../../DataAnalyticsTools/meas/T001/battery_data.json'
 target_path     = "../../DataAnalyticsTools/meas/T001/MeasureResultsFromJSONduts"
-dutID           = "250409A"
+dutID           = "250410A"
 dutInfoList     = []
 
 # load and open JSON file
@@ -93,7 +93,7 @@ bat_test_active = 1                                 #   activate setup for bat t
 bat_nominal_u   = dutInfoList[2]                    #V  nominal voltage level of the new battery
 bat_nominal_i   = dutInfoList[3]                    #A  suggested nominal discharge current
 bat_dead_u      = dutInfoList[5]                    #V  voltage level to consider dead
-bat_cp_value    = ((bat_dead_u * bat_nominal_i)/4)  # Use half of cp_max value
+bat_cp_value    = ((bat_dead_u * bat_nominal_i)/2)  # Use half of cp_max value
 #######################################################################################
 
 # === Config ===
