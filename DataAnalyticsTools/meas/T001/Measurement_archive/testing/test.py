@@ -1,6 +1,6 @@
 import json
 
-json_file_path = '../battery_data.json'
+json_file_path = '../../battery_data.json'
 dutID = '250405A'                           # What DUT are you looking for
 
 # load and open JSON file

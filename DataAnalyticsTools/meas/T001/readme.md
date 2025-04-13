@@ -6,7 +6,7 @@ These you can find under 'Battery Profiles' in this readme.
 You can however set specified values for each model based on the datasheets and add those with
 the [Add DUT Script](add_DUT_T001.py) and add all parameters you can find.
 With that all data for your newly created DUT will be stored in the [Battery Data JSON](battery_data.json).
-If you like you can always validate this data file with the [JSON Validator](testing/JSONvalidator.py).
+If you like you can always validate this data file with the [JSON Validator](Measurement_archive/testing/JSONvalidator.py).
 
 In the current state there is the [Measurement Script T001 with JSON Support](../../../DeviceTools/SDL1020X-E/T001_BatteryEnduranceTestJSON.py)
 you can use if you added the wanted DUT with you chose dutID to the JSON file.
